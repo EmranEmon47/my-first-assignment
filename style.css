@@ -165,12 +165,44 @@ body{
 }
 .footer p{
     font-size: 15px;
+    text-align: center;
+    
 }
 .footer h2{
     font-family: 'Yeseva One', cursive;
 }
 .footer span{
     color: tomato;
+}
+.full-stack{
+    font-size: 30px;
+    
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.full-stack-photo{
+    background-image: url(images/bonus-photo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: .5;
+    height: 380px;
+    text-align: center;
+    
+}
+
+.fullstack p {
+    padding: 105px;
+    color: cyan;
+}
+
+.bonus-part{
+    height: 550px;
+}
+.footer-button {
+    margin-top: 20px;
+    text-align: center;
 }
 
 
