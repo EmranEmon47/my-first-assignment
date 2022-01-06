@@ -49,14 +49,14 @@ body{
 }
 .mission-vission{
     display: flex;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
     
 }
 .mission-vission img{
-    width: 50%;
+    width: 150px;
 }
 .three-box{
-    width:50%;
     margin-top: 30px;
     margin-left: 40px;
     padding-left: 30px;
@@ -81,21 +81,25 @@ body{
     border-radius: 20px;
     margin-right: 150px;   
 }
-.mission-vission-goals-heading{
+.mission-vission-goals-heading {
     font-size: 40px;
     
     text-align: center;
     margin-top: 20px;
+    font-weight: bolder;
 }
 #section-two h1{
-    font-weight: 900;
+    font-weight: 900 !important;
+    color: red;
+    font-size: 50px;
 }
 .third-part{
     display: flex;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
     margin-left: 150px;
     background-image: url(images/shape-1.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat ;
     
 }
 .developer-images img{
@@ -106,11 +110,32 @@ body{
 }
 .front-end{
     width: 50%;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 25px;
     margin-bottom: 60px;
+    margin-right: 100px;
 }
 .front-end h2{
     font-size: 40px;
 }
+
+.front-end p {
+    text-align: left;
+}
+.forth-part{
+    display: flex;
+    margin-left: 150px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    
+}
+.back-end{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    margin-right: 100px;
+}
+
+
 
