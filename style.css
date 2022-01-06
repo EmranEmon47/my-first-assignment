@@ -3,6 +3,8 @@ body{
 }
 .intro-part{
     display: flex;
+    margin-top: 80px;
+   
 }
 .half-width{
     width: 50%;
@@ -16,8 +18,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Yeseva One', cursive;
     
+    
 }
-#header-line-2{
+.cyne-color{
     color: #00CFEB;
 }
 .intro-part img{
@@ -41,5 +44,48 @@ body{
 }
 #small-tag{
     margin-top: 30px;
+    margin-bottom: 70px;
     font-size: 90%;
+}
+.mission-vission{
+    display: flex;
+    width: 100%;
+    
+}
+.mission-vission img{
+    width: 50%;
+}
+.three-box{
+    width:50%;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+#mission{
+    background-color: rgb(0, 255, 255,0.1);
+    border-radius: 20px;
+    margin-left: 150px;
+    
+    
+}
+#vission{
+    background-color: rgb(16, 230, 165,0.1);
+    border-radius: 20px;
+   
+   
+}
+#goals{
+    background-color: rgb(102, 150, 245,0.1);
+    border-radius: 20px;
+    margin-right: 150px;   
+}
+.mission-vission-goals-heading{
+    font-size: 40px;
+    
+    text-align: center;
+    margin-top: 20px;
+}
+#section-two h1{
+    font-weight: 900;
 }
