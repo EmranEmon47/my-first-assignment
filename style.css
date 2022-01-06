@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:  0px;
 }
+
 .intro-part{
     display: flex;
     margin-top: 80px;
@@ -130,6 +132,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 120px;
+    margin-bottom: 60px;
     /* background-image: url(images/shape-1.png);
     background-repeat: no-repeat; */
     
@@ -151,6 +154,23 @@ body{
 }
 .back-end h2{
     font-size: 40px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+.footer p{
+    font-size: 15px;
+}
+.footer h2{
+    font-family: 'Yeseva One', cursive;
+}
+.footer span{
+    color: tomato;
 }
 
 
