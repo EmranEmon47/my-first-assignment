@@ -90,23 +90,26 @@ body{
 }
 #section-two h1{
     font-weight: 900 !important;
-    color: red;
+    
     font-size: 50px;
 }
 .third-part{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 150px;
-    background-image: url(images/shape-1.png);
-    background-repeat: no-repeat ;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    /* background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+    z-index: 1; */
     
 }
 .developer-images img{
     width: 100%;
 }
 .developer-images{
-    width: 27%;
+    width: 30%;
 }
 .front-end{
     width: 50%;
@@ -124,17 +127,30 @@ body{
 }
 .forth-part{
     display: flex;
-    margin-left: 150px;
-    background-image: url(images/shape-1.png);
-    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    /* background-image: url(images/shape-1.png);
+    background-repeat: no-repeat; */
     
 }
 .back-end{
-    width: 50%;
-    margin-left: 100px;
+   
+    margin-left: 30px;
     margin-top: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     margin-right: 100px;
+    padding-left: 20px;
+}
+
+.back-end p {
+    text-align: left;
+}
+.developer-images-2 img{
+    width: 70%;
+}
+.back-end h2{
+    font-size: 40px;
 }
 
 
